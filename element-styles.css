@@ -1,0 +1,91 @@
+h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    text-shadow: 
+        -1px -1px 0 #f1f1f1,  
+         1px -1px 0 #f1f1f1,
+        -1px  1px 0 #f1f1f1,
+         1px  1px 0 #f1f1f1;
+}
+
+.header-content {
+    min-width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.quote{
+    padding: 10px;
+    text-align: right;
+    font-size: 24px;
+}
+.footer-text{
+    text-align: right;
+}
+
+p {
+    padding: 0px 20px 10px;
+    text-align: left;
+}
+
+.subtitle{
+    text-align: left;
+    padding-bottom: 5px;
+}
+
+.headers {
+    color: rgb(0, 0, 0);
+    border-width: 5px;
+    font-size: 2.5em;
+    flex-shrink: 0;
+    text-shadow: 
+        -1px -1px 0 #f1f1f1,  
+         1px -1px 0 #f1f1f1,
+        -1px  1px 0 #f1f1f1,
+         1px  1px 0 #f1f1f1;
+}
+
+.sidebar ol {
+    padding: 0 20px;
+    list-style-type: none;
+    margin: 0;
+}
+
+.sidebar ol li {
+    margin-bottom: 20px;
+    font-size: 1.4em;
+}
+
+.sidebar ol li a {
+    text-decoration: none;
+    color: #000;
+    display: block;
+}
+
+.sidebar ol li.choosed{
+    font-size: 170%;
+}
+
+ul li{
+    text-decoration: none;
+    list-style: none;
+}
+.recipe-image {
+    margin: auto;
+    display: block;
+    width: 80%;
+    padding: 5px;
+}
+
+.down-image{
+    margin: auto;
+    display: block;
+    width: 100%;
+    padding: 5px;
+}
+
+.page > .map-image{
+    width: 100%;
+    max-width: 1280px;
+    padding-top: 30px;
+}
+

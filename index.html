@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Recipes Collection</title>
+    <link rel="stylesheet" type="text/css" href="adaptive.css">  
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="element-styles.css">
+    <link rel="stylesheet" href="style_lab7.css">
+    <!-- password for web Na2006na0601-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div class="container">    
+        <div class="header">
+            <div class="header-content">
+                <h2 class="quote">Eat at pleasure, drink with measure</h2>
+                <h1 class="headers">Recipes</h1>
+            </div>
+        </div>
+
+        <div class="page" id="page">
+            <h2>Welcome to Our Recipe Collection!</h2>
+            <p>Discover a world of culinary delights with our extensive collection of recipes. Whether you're a seasoned chef or just starting out, you'll find inspiration and guidance to create mouth-watering dishes. Explore our cooking tips, step-by-step guides, and expert advice to elevate your kitchen skills. Let's embark on a delicious journey together and make every meal a delightful experience!</p>
+            <h2>Choose what you want to cook and click!</h2>
+
+            <img src="img/img-main-map-2.png" id="recipeImg" usemap="#recipeMap" class="map-image">
+
+            <map name="recipeMap">
+                <area shape="rect" coords="50,50,160,130" href="page1.html" alt="Borsch Recipe" class="map-area">
+                <area shape="rect" coords="180,50,320,130" href="page2.html" alt="Dumplings Recipe" class="map-area">
+                <area shape="rect" coords="340,50,500,130" href="page3.html" alt="Pizza Recipe" class="map-area">
+                <area shape="rect" coords="535,50,700,130" href="page4.html" alt="Cookies Recipe" class="map-area">
+            </map>
+
+            <button id="play">Play</button>
+            <div id="block3table" style="margin-top: 20px;"></div>
+        </div>
+
+        <div class="upper">
+            <h2>Ingredients</h2>
+            <p>Here you will see ingredients</p>
+            <button id="clearData" style="margin-top: 20px;">Clear Data</button>
+        </div>
+
+        <div class="down">
+            <img src="img/img-m-1.jpg" class="down-image">
+        </div>
+
+        <div class="sidebar">
+            <ol>
+                <li class="choosed"><a href="index.html">Main Menu</a></li>
+                <li>Page 1. Borsch</li>
+                <li>Page 2. Dumplings</li>
+                <li>Page 3. Pizza</li>
+                <li>Page 4. Cookies</li>
+            </ol>
+        </div>
+
+        <div class="footer">
+            <div class="header-content">
+                <h1 class="quote">You can do it!</h1>
+            </div>
+            <p class="footer-text">Povered by Anastasia Voytiuk</p>
+        </div>
+    </div>
+    <div id="work" class="hidden">
+        <div id="controls">
+            <div id="messages"></div>
+            <button id="start">Start</button>
+            <button id="reload" style="display: none;">Reload</button>
+            <button id="close">Close</button>
+        </div>
+        <div id="anim"></div>
+    </div>
+
+    <!-- Скрипт для адаптації координат -->
+    <script src="map-adaptive.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
